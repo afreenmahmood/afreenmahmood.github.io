@@ -190,7 +190,7 @@ h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000393}}
 h2 {
   font-size: 1.25rem;
-  font-weight: 800;
+  font-weight: 700;
   margin: 0 0 2rem 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000399}}
@@ -1729,8 +1729,8 @@ form {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin: -2rem 0 2rem -2rem;
-    width: calc(100% + 4rem); }
+    margin: -1rem 0 2rem -1rem;
+    width: calc(100% + 2rem); }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/components\/_form\.scss}line{font-family:\0000324}}
     form > .fields > .field {
       -moz-flex-grow: 0;
@@ -1741,20 +1741,20 @@ form {
       -ms-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
-      padding: 2rem 0 0 2rem;
-      width: calc(100% - 2rem); }
+      padding: 1rem 0 0 1rem;
+      width: calc(100% - 1rem); }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/components\/_form\.scss}line{font-family:\0000330}}
       form > .fields > .field > :last-child {
         margin-bottom: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/components\/_form\.scss}line{font-family:\0000334}}
       form > .fields > .field.half {
-        width: calc(50% - 1rem); }
+        width: calc(50% - 0.5rem); }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/components\/_form\.scss}line{font-family:\0000338}}
       form > .fields > .field.third {
-        width: calc(100%/3 - 0.6666666667rem); }
+        width: calc(100%/3 - 0.3333333333rem); }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/components\/_form\.scss}line{font-family:\0000342}}
       form > .fields > .field.quarter {
-        width: calc(25% - 0.5rem); }
+        width: calc(25% - 0.25rem); }
   @media screen and (max-width: 480px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/components\/_form\.scss}line{font-family:\0000349}}
     form > .fields {
@@ -2471,16 +2471,16 @@ a.arrow {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: -1.25rem 0 0 -1.25rem;
-  width: calc(100% + 1.25rem); }
+  margin: -0.25rem 0 0 -0.25rem;
+  width: calc(100% + 0.25rem); }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/components\/_gallery\.scss}line{font-family:\0000327}}
   .gallery a {
     border-bottom: 0;
     display: block;
-    margin: 1.25rem 0 0 1.25rem;
+    margin: 0.25rem 0 0 0.25rem;
     outline: 0;
     position: relative;
-    width: calc(50% - 1.25rem); }
+    width: calc(50% - 0.25rem); }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/components\/_gallery\.scss}line{font-family:\0000335}}
     .gallery a img {
       display: block;
@@ -2625,12 +2625,12 @@ a.arrow {
   @media screen and (max-width: 736px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/components\/_gallery\.scss}line{font-family:\0000319}}
     .gallery {
-      margin: -0.625rem 0 0 -0.625rem;
-      width: calc(100% + 0.625rem); }
+      margin: -0.125rem 0 0 -0.125rem;
+      width: calc(100% + 0.125rem); }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/components\/_gallery\.scss}line{font-family:\00003194}}
       .gallery a {
-        margin: 0.625rem 0 0 0.625rem;
-        width: calc(50% - 0.625rem); }
+        margin: 0.125rem 0 0 0.125rem;
+        width: calc(50% - 0.125rem); }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/components\/_gallery\.scss}line{font-family:\00003198}}
         .gallery a img {
           height: 20rem; }
@@ -2756,7 +2756,7 @@ ul.feature-icons {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\00003219}}
     #wrapper section > .content {
       grid-area: content;
-      max-width: 60rem;
+      max-width: 80rem;
       position: relative; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\00003225}}
     #wrapper section > footer {
@@ -2777,7 +2777,7 @@ ul.feature-icons {
       display: block;
       margin-top: 1rem;
       position: absolute;
-      width: 2px; }
+      width: 3px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\00003252}}
     #wrapper > section > header h1, #wrapper > section > header h2 {
       position: relative; }
@@ -2786,7 +2786,7 @@ ul.feature-icons {
         background: #43d9b8;
         content: '';
         display: block;
-        height: 2px;
+        height: 3px;
         position: absolute;
         top: 1rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\00003266}}
@@ -2863,7 +2863,7 @@ ul.feature-icons {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\0000316}}
     #wrapper section > header {
       padding: 0 10rem 0 5rem;
-      width: 35rem; }
+      width: 40rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\0000321}}
     #wrapper section > .content {
       padding: 0 5rem; }
@@ -2889,7 +2889,7 @@ ul.feature-icons {
       width: 32rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\0000375}}
   #wrapper > section.intro > header > * {
-    width: 20rem; }
+    width: 25rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\0000380}}
   #wrapper > section.intro > header:before {
     margin-left: calc(50vw - 10rem); }
@@ -2902,7 +2902,7 @@ ul.feature-icons {
       margin-left: 0; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\00003102}}
   #wrapper > section:last-of-type > header:after {
-    left: calc(50vw - 5rem - 0.25rem + 1px); }
+    left: calc(50vw - 5rem - 0.25rem + 1.5px); }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\00003112}}
   #wrapper .copyright {
     padding: 0 5rem; }
@@ -2916,7 +2916,7 @@ ul.feature-icons {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\0000316}}
         #wrapper section > header {
           padding: 0 8rem 0 4rem;
-          width: 33rem; }
+          width: 38rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\0000321}}
         #wrapper section > .content {
           padding: 0 4rem; }
@@ -2942,7 +2942,7 @@ ul.feature-icons {
           width: 30rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\0000375}}
       #wrapper > section.intro > header > * {
-        width: 21rem; }
+        width: 26rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\0000380}}
       #wrapper > section.intro > header:before {
         margin-left: calc(50vw - 8rem); } }
@@ -2956,7 +2956,7 @@ ul.feature-icons {
   @media screen and (max-width: 1280px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\00003102}}
       #wrapper > section:last-of-type > header:after {
-        left: calc(50vw - 4rem - 0.25rem + 1px); }
+        left: calc(50vw - 4rem - 0.25rem + 1.5px); }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Website\/afreenmahmood\.github\.io\/assets\/sass\/layout\/_wrapper\.scss}line{font-family:\00003112}}
       #wrapper .copyright {
         padding: 0 4rem; } }

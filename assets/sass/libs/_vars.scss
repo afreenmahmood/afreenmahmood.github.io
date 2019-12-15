@@ -17,12 +17,12 @@
 		border-radius:			0.325rem,
 		element-height:			3rem,
 		element-margin:			2rem,
-		header-width:			25rem,
+		header-width:			30rem,
 		subheader-width:		22rem,
-		content-width:			60rem,
-		line-width:				2px,
-		form-gutter:			2rem,
-		gallery-gutter:			1.25rem,
+		content-width:			80rem,
+		line-width:				3px,      //timeline er line
+		form-gutter:			1rem, 
+		gallery-gutter:			0.25rem,
 	);
 
 // Font.
@@ -33,7 +33,7 @@
 		weight:					300,
 		weight-bold:			600,
 		weight-extrabold:		700,
-		weight-heading:			800,
+		weight-heading:			700,
 		weight-heading-light:	600,
 		kerning:				0.0375em,
 		kerning-heading:		0.25em,       // h2 text density
