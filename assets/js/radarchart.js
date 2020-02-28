@@ -32,6 +32,7 @@ var radarOptions = {
             color: 'rgba(0, 0, 0,0.4)'
         },
         responsive: true,
+        maintainAspectRatio: true,
         ticks: {
             display: false,
             fontSize: 18,
