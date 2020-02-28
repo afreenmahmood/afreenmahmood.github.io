@@ -30,23 +30,23 @@ var radarOptions = {
             display: true,
             lineWidth: 0.8,
             color: 'rgba(0, 0, 0,0.4)',
-            fontSize: 10
         },
         responsive: true,
         maintainAspectRatio: true,
         ticks: {
             display: false,
             fontSize: 18,
-            min: 0,
+            min: 5,
             max: 100,
             showLabelBackdrop: false
         },
         lineArc: true,
         pointLabels: {
-            fontSize: 17,
-            fontStyle: '300',
+            fontSize: 10,
+            fontStyle: 'normal',
             fontColor: 'rgba(255, 255, 255,0.8)',
-            fontFamily: "'Lato', sans-serif"
+            fontFamily: "'Lato', sans-serif",
+           // lineHeight: normal
         },
     },
     legend: { display: false },
