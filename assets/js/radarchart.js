@@ -29,7 +29,8 @@ var radarOptions = {
         angleLines: {
             display: true,
             lineWidth: 0.8,
-            color: 'rgba(0, 0, 0,0.4)'
+            color: 'rgba(0, 0, 0,0.4)',
+            fontSize: 10
         },
         responsive: true,
         maintainAspectRatio: true,
