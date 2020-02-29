@@ -7,7 +7,7 @@ var tickLabels = {
 }
 
 var skillData = {
-    labels: ["Recruitment", "People Development", "Policy Development", "Organizational Development", "Documentation" , " Admin Support", "Employee Counselling"],
+    labels: ["Recruitment", "People Development", "Policy Development", "Organizational Development", "Documentation" , " Admin Support", "Employee Counseling"],
     datasets: [
         {
             borderColor: "rgba(73, 252, 212, 0.4)",
@@ -42,7 +42,7 @@ var radarOptions = {
         },
         lineArc: true,
         pointLabels: {
-            fontSize: 10,
+            fontSize: 9,
             fontStyle: 'normal',
             fontColor: 'rgba(255, 255, 255,0.8)',
             fontFamily: "'Lato', sans-serif",
