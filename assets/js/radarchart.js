@@ -14,8 +14,7 @@ var skillData = {
             backgroundColor: "rgb(52, 152, 219, 0.5)",
             pointColor: "rgba(255,255,255)",
             pointBackgroundColor: "rgba(73, 252, 212, 0.6",
-            strokeColor: "rgba(255,255,255)",
-            
+            strokeColor: "rgba(255,255,255)",           
             data: [100, 75, 85, 75, 100, 85, 70]
         },
     ]
@@ -32,7 +31,6 @@ var radarOptions = {
             color: 'rgba(0, 0, 0,0.4)',
         },
         responsive: true,
-        maintainAspectRatio: true,
         ticks: {
             display: false,
             fontSize: 18,
