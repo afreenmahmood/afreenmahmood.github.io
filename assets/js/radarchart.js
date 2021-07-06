@@ -7,7 +7,7 @@ var tickLabels = {
 }
 
 var skillData = {
-    labels: ["Recruitment", "People Development", "Policy Development", "Organizational Development", "Documentation" , " Admin Support", "Employee Counseling"],
+    labels: ["Recruitment", "People Development", "Succession Planning", "Organizational Development", "Employee Advocacy" , " Policy Development", "Coaching & Counseling"],
     datasets: [
         {
             borderColor: "rgba(73, 252, 212, 0.4)",
